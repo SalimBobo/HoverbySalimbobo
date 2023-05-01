@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#hover{
+    height: 300px;
+    width: 60px;
+    background-color: orange;
+}
+
+#hover:hover{
+    width: 300px;
+    transition: 2s;
+}
+
+#hover > h2{
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    color: white;
+}
+#Images,h1{
+    text-align: center;
+}
+#Images > img{
+    height: 300px;
+    width: 300px;
+}
+#Images > img:hover{
+    border-bottom: 20px solid white;
+    transition: 0.5s;
+}
+#intput {
+    text-align: center;
+}
+input{
+    height: 3em;
+    border-radius: 10%;
+}
+input:focus{
+    width: 300px;
+    transition: 5s;
+}
+#over>h1{
+    margin: 80px 0 80px 0;
+}
+#over>h1:hover{
+    font-size: 100pt;
+    transition: 2s;
+    color: purple;
+}
